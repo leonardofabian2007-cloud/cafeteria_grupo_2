@@ -1,0 +1,10 @@
+<button id="btn-cafes">mostrar cafe</button> 
+debe desplegar la informacion referente a los productos de cafe al momento de seleccionarlo
+
+<button id="btn-postres">mostrar postres</button>
+debe desplegar la informacion referente a los productos de postres al momento de seleccionarlo
+
+<button id="btn-ver-todo">mostrar todo</button>
+debe desplegar toda la informacion tanto de postres como cafe al seleccionarlo 
+
+

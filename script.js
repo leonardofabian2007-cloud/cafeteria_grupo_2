@@ -13,9 +13,20 @@ btnCafes.addEventListener("click", () => {
 });
 
 const btnPostres = document.getElementById("btn-postres");
-btnCafes.addEventListener("click", () => {
+btnPostres.addEventListener("click", () => {
   cafes.forEach((cafe) => {
     cafe.style.display = "none";
+  });
+
+  postres.forEach((postre) => {
+    postre.style.display = "block";
+  });
+});
+
+const btnTodo = document.getElementById("btn-ver-todo");
+btnTodo.addEventListener("click", () => {
+  cafes.forEach((cafe) => {
+    cafe.style.display = "block";
   });
 
   postres.forEach((postre) => {
